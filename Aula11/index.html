@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro para doação de sangue</title>
+</head>
+
+<body>
+    <form action="cadstro.php" method="post">
+        <p><label for="iname">Nome:</label> <input type="text" name="nome" id="iname" required></p>
+        <p><label for="iidade">Idade:</label> <input type="number" name="idade" id="iidade" required></p>
+        <p><label for="icpf">CPF:</label> <input type="text" name="cpf" id="icpf" required></p>
+        <p>Gênero:
+            <input type="radio" name="genero" value="masculino" required> Masculino
+            <input type="radio" name="genero" value="feminino" required> Feminino
+        <p>Email: <input type="email" name="email" id="email" required>
+        <p><label for="iname">Nome da mãe:</label> <input type="text" name="nome" id="iname" required></p>
+        <p><label for="iname">Nome do pai:</label> <input type="text" name="name" id="iname"></p>
+        <p>Tipo sanguíneo: 
+            <input type="radio" name="tiposanguíneo" id="A" required> A
+            <input type="radio" name="tiposanguíneo" id="B" required> B
+            <input type="radio" name="tiposanguíneo" id="AB" required> AB
+            <input type="radio" name="tiposanguíneo" id="O" required> O
+        <p>Tipo:
+            <input type="radio" name="tipo" id="positivo" required> Positivo
+            <input type="radio" name="tipo" id="negativo" required> Negativo
+        </p>
+        <p>Disponibilidade:
+            <input type="radio" name="disponibilidade" id="manhã" required> Manhã
+            <input type="radio" name="disponibilidade" id="tarde" required> Tarde
+        <p>Horário:
+            <input type="radio" name="horario" id="08:00 às 11:00" required> 08:00 às 11:00
+            <input type="radio" name="horario" id="14:00 às 17:00" required> 14:00 às 17:00
+        </p>
+        <p>Dúvidas: <textarea name="duvidas"></textarea>
+            <p><input type="submit" value="Enviar"></p>
+        </p>
+    </form>
+    
+</body>
+</html>
