@@ -1,0 +1,38 @@
+.texto {
+    font-size: 2rem;
+    color: rgb(248, 205, 153);
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: rgb(104, 55, 150);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 100%;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: rgb(135, 96, 172);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: unset;
+    line-height: normal;
+}
+
+body {
+    font-size: 1rem;
+    color: black;
+    text-align: justify;
+    font-family: cursive;
+    font-weight: lighter;
+    line-height: 100%;
+}
