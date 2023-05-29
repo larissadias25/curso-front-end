@@ -1,0 +1,25 @@
+@media (max-widht: 1200px)
+{
+    body {
+        font-size: 2rem;
+        background-color: yellow;
+        color: black;
+        text-align: justify;
+    }
+    h1 {
+        font-size: 200%;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: dotted;
+    }
+    h3 {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: italic;
+    }
+    footer {
+        font-size: 1.5rem;
+        text-align: left;
+        color: rgb(241, 211, 175);
+    }
+}

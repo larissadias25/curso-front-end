@@ -1,0 +1,25 @@
+@media (max-width: 690px)
+{
+    body {
+        font-size: 1rem;
+        background-color: purple;
+        color: white;
+        text-align: justify;
+    }
+    h1 {
+        font-size: 200%;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: dotted;
+    }
+    h3 {
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+    }
+    footer {
+        font-size: 1rem;
+        text-align: left;
+        color: bisque;
+    }
+}
